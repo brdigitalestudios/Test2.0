@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="icone.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Orçamento</title>
+</head>
+
+<body>
+     <header>
+    <div class="container nav">
+        <div class="logo"><a href="index.html" class="btn-secundary" style="text-decoration: none;">BR Digital Estudio</a></div>
+        <a href="index.html" class="btn-secundary"></a>
+        <a href="https://www.instagram.com/br_digital_estudio/" target="_blank" class="btn-nav">
+            Instagram
+        </a>
+    </div>
+    <div class="meu-menu">
+        <a href="index.html#services" class="btn-secundary"><img src="icones/servico-de-gerenciamento.png" alt="serviços"></a>
+        <a href="index.html#about" class="btn-secundary"><img src="icones/em-formacao.png" alt="informação"></a>
+        <a href="index.html#contato" class="btn-secundary"><img src="icones/o-email (2).png" alt=""></a>
+    </div>
+</header>
+
+<section class="hero">
+    <div class="container">
+        <h1>orçamentos</h1>
+    <div class="caixa-orcamento" onclick="mostrarBotao(this)">
+        <p>Sites pré-feitos R$ 300,00 </p>
+        <a href="https://mpago.la/1soSbs2" target="_blank" class="botao-comprar econdido">comprar</a>
+            <button class="botao-comprar escondido" onclick="event.stopPropagation">Comprar</button>
+    </div>
+ <div class="caixa-orcamento" onclick="mostrarBotaoPersonalizado(this)">
+        <p>O valor mínimo de um site personalizado é de R$ 500,00. Fale com um representante para mais informações. </p>
+        <a href="https://www.instagram.com/br_digital_estudio/" target="_blank" class="botao-comprar">Coonversar</a>
+        <button class="botao-comprar escondido" onclick="event.stopPropagation">conversar</button>
+    </div>
+        <footer>
+    © 2026 Breno Rosendo - Todos os direitos reservados        
+    </footer>
+</section>
+<script src="script.js"></script>
+</body>
+</html>
